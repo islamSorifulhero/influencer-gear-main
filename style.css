@@ -1,0 +1,59 @@
+.logo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #3A3A3A;
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+}
+nav li a{
+    text-decoration: none;
+    margin-right: 30px;
+    color: #3A3A3A;
+    font-size: 1rem;
+    font-weight: 600;
+}
+/* banner  */
+
+.banner{
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+.banner-description{
+    margin-left: 100px;
+}
+.banner-description h1{
+    font-size: 3.3rem;
+    font-weight: bold;
+    color: #3A3A3A;
+}
+.banner-description p{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #3A3A3A;
+}
+.banner-img{
+    height: auto;
+    margin: 80px auto;
+    background-repeat: no-repeat;
+    background-image: url(images/Circle\ design.svg);
+    background-size: contain;
+}
+.btn{
+    background-color: #E02C6D;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 41px;
+    border: none;
+}

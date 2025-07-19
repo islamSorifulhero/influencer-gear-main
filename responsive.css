@@ -1,0 +1,15 @@
+@media screen and (max-width: 992px) {
+    .banner{
+        flex-direction: column-reverse;
+        gap: 10px;
+        margin: 0 auto;
+    }
+    .banner-description{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 768px) {
+    .logo{
+        flex-direction: column;
+    }
+}
