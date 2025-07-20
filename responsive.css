@@ -10,8 +10,8 @@
         margin: 0 auto;
     }
     .banner-description{
-    margin-left: 0px;
-    text-align: center;
+        margin-left: 0px;
+        text-align: center;
     }
     .banner-img img{
         width: 330px;
@@ -26,7 +26,7 @@
         grid-template-columns: auto auto auto auto;
     }
     .main-popular-collection{
-        grid-template-columns: auto auto;
+        grid-template-columns: auto;
     }
     .featured-products{
         flex-direction: column-reverse;
@@ -38,8 +38,5 @@
 @media screen and (max-width: 576px) {
     .production-img{
         grid-template-columns: auto auto auto;
-    }
-    .main-popular-collection{
-        grid-template-columns: auto;
     }
 }
