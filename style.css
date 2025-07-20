@@ -131,3 +131,55 @@ nav li a{
     grid-template-columns: auto auto auto;
     gap: 30px;
 }
+.see-more{
+    color: #E02C6D;
+    font-size: 1.5rem;
+    text-align: center;
+}
+/* featured products */
+.featured-products{
+    display: flex;
+    width: 100%;
+    height: auto;
+    gap: 80px;
+    margin: 100px auto;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.popular-img{
+    max-width: 420px;
+}
+.popular-descriptions{
+    width: auto;
+}
+.popular-descriptions h1{
+    font-size: 2.3rem;
+    font-weight: bold;
+    color: #0A0826;
+}
+.popular-descriptions p{
+    font-size: 1rem;
+    font-weight: bold;
+    color: #6C6C6C;
+}
+/*   footer */
+
+footer{
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+footer h1{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+footer p{
+    font-size: .94rem;
+    font-weight: bold;
+    color: #D9DBE1;
+}
+footer i{
+    margin-right: 20px;
+}

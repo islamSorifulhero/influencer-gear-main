@@ -5,10 +5,11 @@
         margin: 0 auto;
     }
     .banner-description{
-        text-align: center;
+    margin-left: 0px;
+    text-align: center;
     }
     .banner-img{
-        margin: 20px auto;
+        margin: 0 auto;
     }
 }
 @media screen and (max-width: 768px) {
@@ -20,6 +21,12 @@
     }
     .main-popular-collection{
         grid-template-columns: auto auto;
+    }
+    .featured-products{
+        flex-direction: column-reverse;
+    }
+    .popular-descriptions{
+        text-align: center;
     }
 }
 @media screen and (max-width: 576px) {
