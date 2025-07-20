@@ -1,3 +1,8 @@
+@media screen and (max-width: 1040px) {
+    .main-popular-collection{
+        grid-template-columns: auto auto;
+    }
+}
 @media screen and (max-width: 992px) {
     .banner{
         flex-direction: column-reverse;

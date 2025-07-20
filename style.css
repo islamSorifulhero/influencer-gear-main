@@ -105,6 +105,7 @@ nav li a{
     font-size: 1.5rem;
     color: #000000;
     margin: 10px auto;
+    text-align: left;
 }
 .diffrent-collection h6{
     color: #FB8200;
@@ -168,6 +169,8 @@ footer{
     background-color: #000000;
     color: white;
     text-align: center;
+    align-items: center;
+    justify-content: center;
     padding: 50px;
 }
 footer h1{
