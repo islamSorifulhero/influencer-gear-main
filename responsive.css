@@ -7,12 +7,26 @@
     .banner-description{
         text-align: center;
     }
+    .banner-img{
+        margin: 20px auto;
+    }
 }
 @media screen and (max-width: 768px) {
     .logo{
         flex-direction: column;
     }
     .production-img{
+        grid-template-columns: auto auto auto auto;
+    }
+    .main-popular-collection{
+        grid-template-columns: auto auto;
+    }
+}
+@media screen and (max-width: 576px) {
+    .production-img{
         grid-template-columns: auto auto auto;
+    }
+    .main-popular-collection{
+        grid-template-columns: auto;
     }
 }
